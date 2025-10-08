@@ -1,7 +1,7 @@
 import { groq } from "@ai-sdk/groq"
 import { generateText } from "ai"
 
-export async function POST(req: Request) {
+export async function POST(req: Request) { 
   try {
     const { prompt, existingCode } = await req.json()
 
